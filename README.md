@@ -44,37 +44,30 @@ This project helped me *connect my Data Science learning path with hands-on codi
 
 ## ⚙️ Installation
 1. **Clone this repository**
-   ```bash
    git clone https://github.com/<your-username>/hand-controlled-snake.git
    cd hand-controlled-snake
-Install dependencies
 
-bash
-Copy code
-pip install -r requirements.txt
-Run the project
+2. **Install dependencies**
+   pip install -r requirements.txt
 
-bash
-Copy code
-python main.py
-Controls
+3. **Run the project**
+   python main.py
 
-Move your index finger in front of the webcam to control the snake.
+4. **Controls**
+   - Move your **index finger** in front of the webcam to control the snake.
+   - Press **Q** to quit.
 
-Press Q to quit.
+---
 
-🪄 How It Works
-MediaPipe Hands detects 21 keypoints on your hand.
+## 🪄 How It Works
+1. **MediaPipe Hands** detects 21 keypoints on your hand.  
+2. The coordinates of your **index fingertip (ID 8)** are extracted.  
+3. These (x, y) coordinates are mapped to the **snake’s head** in the Pygame window.  
+4. The snake moves according to your hand movement, eats food, and grows — just like the original Snake game!  
 
-The coordinates of your index fingertip (ID 8) are extracted.
+---
 
-These (x, y) coordinates are mapped to the snake’s head in the Pygame window.
-
-The snake moves according to your hand movement, eats food, and grows — just like the original Snake game!
-
-🧩 File Structure
-bash
-Copy code
+## 🧩 File Structure
 hand-controlled-snake/
 │
 ├── hand_tracking.py      # Handles webcam and fingertip detection
@@ -82,26 +75,27 @@ hand-controlled-snake/
 ├── main.py               # Combined control (hand + game)
 ├── requirements.txt      # Dependencies
 └── README.md             # Project info (this file)
-🎓 What I Learned
-Integrating computer vision with game development
 
-Using MediaPipe landmarks for gesture-based control
+---
 
-Managing real-time frame updates efficiently with OpenCV
+## 🎓 What I Learned
+- Integrating **computer vision** with game development  
+- Using **MediaPipe landmarks** for gesture-based control  
+- Managing **real-time frame updates** efficiently with OpenCV  
+- Combining multiple Python libraries into a single cohesive project  
 
-Combining multiple Python libraries into a single cohesive project
+---
 
-📸 Credits & Inspiration
-Inspired by Programming Hero’s Snake Hand Controller
+## 📸 Credits & Inspiration
+- Inspired by [Programming Hero’s Snake Hand Controller](https://www.youtube.com/watch?v=b0A6CQE60bs)  
+- Built while learning **Computer Vision & AI** concepts 🎯  
 
-Built while learning Computer Vision & AI concepts 🎯
+---
 
-👨‍💻 About Me
-👋 Hi, I’m Ansh Nimker, currently pursuing MCA @ USICT (2025–2027).
-I’m learning Data Science, AI, and Computer Vision, and I love building fun, visual projects like this to strengthen my fundamentals.
+## 👨‍💻 About Me
+👋 Hi, I’m **Ansh Nimker**, currently pursuing **MCA @ USICT (2025–2027)**.  
+I’m learning **Data Science, AI, and Computer Vision**, and I love building fun, visual projects like this to strengthen my fundamentals.  
 
+---
 
-⭐ If you liked this project, drop a star on the repo — it keeps the motivation alive! ⭐
-
-yaml
-Copy code
+⭐ *If you liked this project, drop a star on the repo — it keeps the motivation alive!* ⭐
