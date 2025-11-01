@@ -44,7 +44,7 @@ This project helped me *connect my Data Science learning path with hands-on codi
 
 ## ⚙️ Installation
 1. **Clone this repository**
-   git clone https://github.com/<your-username>/hand-controlled-snake.git
+   git clone https:/github.com/<your-username>/hand-controlled-snake.git
    cd hand-controlled-snake
 
 2. **Install dependencies**
