@@ -37,7 +37,7 @@ while True:
         cv2.circle(frame, (x, y), 20, ACCENT_COLOR, 2)
         cv2.circle(frame, (x, y), 8, ACCENT_COLOR, -1)
         
-        #cv2.putText(frame, "CONTROL", (x - 40, y - 30), cv2.FONT_HERSHEY_SIMPLEX, 0.5, ACCENT_COLOR, 2)
+        cv2.putText(frame, "CONTROL", (x - 40, y - 30), cv2.FONT_HERSHEY_SIMPLEX, 0.5, ACCENT_COLOR, 2)
 
     cTime = time.time()
     fps = 1 / (cTime - pTime)
