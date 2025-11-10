@@ -58,7 +58,7 @@ velocityY = 0
 gameover = False
 score = 0
 
-# ✅ Restart function
+# Restart function
 def reset_game():
     global snake, food, snake_body, velocityX, velocityY, gameover, score
     snake = Tile(5*TILE, 5*TILE)
@@ -73,7 +73,7 @@ def reset_game():
 window.bind("r", lambda e: reset_game())
 window.bind("R", lambda e: reset_game())
 
-# ✅ HAND CONTROL WITH CAMERA WINDOW + SMOOTHING
+# HAND CONTROL WITH CAMERA WINDOW + SMOOTHING
 def update_direction_from_finger():
     global velocityX, velocityY, prev_x, prev_y, last_turn_time, gameover
 
@@ -125,7 +125,7 @@ def update_direction_from_finger():
 
         prev_x, prev_y = x_f, y_f
 
-    # ✅ Always show control window
+    # Always show control window
     cv2.imshow("Snake Controller", frame)
     cv2.waitKey(1)
 
