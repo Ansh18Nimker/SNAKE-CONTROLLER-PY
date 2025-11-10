@@ -6,7 +6,8 @@ Move your index finger in front of the webcam and the snake follows in real time
 Built with Python, OpenCV, MediaPipe, and Tkinter.
 
 ## 🚀 Demo
-Gameplay demo coming soon.
+https://drive.google.com/drive/folders/1WVk84TmhdRg9MJjuYYQhjM3Vjcff7NSP?usp=sharing
+
 
 ## ✋ What it does
 - Tracks your index finger using the webcam
